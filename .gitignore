@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local Configs & Results
+config.json
+result/
+
+# PyInstaller Build Artifacts
+build/
+dist/
+*.spec
+build.bat
+
+# Scratch & Test Scripts
+*scratch*.py
+test_*.py
+check_*.py
+temp_*.py
